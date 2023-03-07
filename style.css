@@ -1,0 +1,14 @@
+#cards{
+    display: flex;
+    margin-top: 2em;
+}
+
+#all-cards{
+    width: 100%
+}
+
+.card {
+    width: 300px;
+    display: flex;
+}
+
