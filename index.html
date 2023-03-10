@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,65 +19,80 @@
 
 
 <body>
-    <div class="container" style="border-bottom: solid">
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img class="rounded-circle" src="https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218450.jpg?w=996&t=st=1677639404~exp=1677640004~hmac=defc9070c2bea82e16b195833de2a73f85417b75f7804aefebd38570c7f2d1c8"
-                width="70" height="70" role="img" aria-label="Bootstrap"><B> GT PRODUÇÕES</B></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img class="rounded-circle"
+                    src="https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218450.jpg?w=996&t=st=1677639404~exp=1677640004~hmac=defc9070c2bea82e16b195833de2a73f85417b75f7804aefebd38570c7f2d1c8"
+                    width="70" height="70" role="img" aria-label="Bootstrap"><B> GT PRODUÇÕES</B></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">
+                            <img class="rounded-circle" src="https://cdn-icons-png.flaticon.com/512/7606/7606136.png"
+                                width="24" height="24" role="img" aria-label="Bootstrap">HOME</a>
+                    </li>
 
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="index.html" class="nav-link text-dark">
-                        <img class="bi d-block mx-auto mb-1"
-                            src="https://cdn-icons-png.flaticon.com/512/7606/7606136.png" width="24" height="24">
-                        Home
-                    </a></li>
-                <li><a href="#" class="nav-link text-dark">
-                        <img class="bi d-block mx-auto mb-1"
-                            src="https://cdn-icons-png.flaticon.com/512/2754/2754518.png" width="24" height="24">
-                        AJUDE-NOS
-                    </a></li>
-                <li><a href="#" class="nav-link text-dark">
-                        <img class="bi d-block mx-auto mb-1"
-                            src="https://cdn-icons-png.flaticon.com/512/1078/1078011.png" width="24" height="24">
-                        Fale conosco
-                    </a></li>
-                <li><a href="#" class="nav-link text-dark">
-                        <img class="bi d-block mx-auto mb-1"
-                            src="https://cdn-icons-png.flaticon.com/512/1312/1312640.png" width="24" height="24">
-                        Adote um hoje
-                    </a></li>
-                <li><a href="#" class="nav-link text-dark">
-                        <img class="bi d-block mx-auto mb-1"
-                            src="https://cdn-icons-png.flaticon.com/512/2746/2746101.png" width="24" height="24">
-                        Doação
-                    </a></li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page">
+                            <img class="rounded-circle" src="https://cdn-icons-png.flaticon.com/512/2754/2754518.png"
+                                width="24" height="24" role="img" aria-label="Bootstrap">AJUDE-NOS</a>
+                    </li>
 
-            <div class="col-md-3 text-end">
-                <div class="flex-shrink-0 dropdown">
-                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="mdo" width="60" height="60" class="rounded-circle">
-                    </a>
-                    <ul class="dropdown-menu text-small shadow">
-                        <li><a class="dropdown-item" href="#">New project...</a></li>  
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page">
+                            <img class="rounded-circle" src="https://cdn-icons-png.flaticon.com/512/1078/1078011.png"
+                                width="24" height="24" role="img" aria-label="Bootstrap">Fale conosco</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page">
+                            <img class="rounded-circle" src="https://cdn-icons-png.flaticon.com/512/1312/1312640.png"
+                                width="24" height="24" role="img" aria-label="Bootstrap">Adote hoje</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page">
+                            <img class="rounded-circle" src="https://cdn-icons-png.flaticon.com/512/2746/2746101.png"
+                                width="24" height="24" role="img" aria-label="Bootstrap">Doação</a>
+                    </li>
                 </ul>
             </div>
-    </div>
+
+            <div class="collapse navbar-collapse perfil" id="navbarText">
+                <div class="nav-bar-perfil">
+                    <div class="col-md-3 text-start">
+                        <div class="flex-shrink-0 dropdown">
+                            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://github.com/mdo.png" alt="mdo" width="60" height="60"
+                                    class="rounded-circle">
+                            </a>
+                            <ul class="dropdown-menu text-small shadow">
+                                <li><a class="dropdown-item" href="#">New project...</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     </header>
 
     <!--CAROUSEL-->
     <section="sliderhome">
-        <div id="myCarousel" class="carousel slide" >
+        <div id="myCarousel" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                     aria-label="Slide 1"></button>
@@ -90,44 +105,42 @@
 
                 <!--SLIDE 1-->
                 <div class="carousel-item">
-                    <img class="bd-placeholder-img-flex"
-                        src="https://blog.petzera.com.br/wp-content/uploads/2020/11/topo-veja-10-dicas-para-o-convivio-de-cao-e-gato-juntos-768x375.jpg.webp"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777"></rect></img>
-                    <div class="container">
-                        <div class="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <p>Some representative placeholder content for the first slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                        </div>
+                    <img src="https://th.bing.com/th/id/R.abf71b987746f30a019d8e0c0370e94d?rik=%2fTf53cxbjnZQOQ&pid=ImgRaw&r=0"
+                        class="w-100">
+
+                    <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
                     </div>
+
                 </div>
 
                 <!--SLIDE 2-->
                 <div class="carousel-item active">
-                    <img src="https://blog.petzera.com.br/wp-content/uploads/2020/11/topo-veja-10-dicas-para-o-convivio-de-cao-e-gato-juntos-768x375.jpg.webp" 
-                        class="d-block w-100">
-                    
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                        </div>
-                    
+                    <img src="https://th.bing.com/th/id/R.abf71b987746f30a019d8e0c0370e94d?rik=%2fTf53cxbjnZQOQ&pid=ImgRaw&r=0"
+                        class="w-100">
+
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+
                 </div>
 
                 <!--SLIDE 3-->
                 <div class="carousel-item">
-                    <img class="img-flex"
-                        src="https://blog.petzera.com.br/wp-content/uploads/2020/11/topo-veja-10-dicas-para-o-convivio-de-cao-e-gato-juntos-768x375.jpg.webp"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <div class="container">
-                        <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                        </div>
+                    <img src="https://th.bing.com/th/id/R.abf71b987746f30a019d8e0c0370e94d?rik=%2fTf53cxbjnZQOQ&pid=ImgRaw&r=0"
+                        class="w-100">
+
+
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
                     </div>
+
                 </div>
             </div>
 
@@ -142,6 +155,57 @@
             </button>
         </div>
         </section>
+
+
+
+
+        <!--CARDS-->
+        <div id="cards">
+            <section="all-cards style="width: 100%; border: 20px wite solid;">
+                <div class="row row-cols-1 row-cols-md-3 ">
+                    <div class="col d-flex justify-content-center">
+                        <div class="card m-0">
+                            <img src="https://th.bing.com/th/id/OIP.tfKFAPnJBP305lZF7Agd_gHaE7?pid=ImgDet&w=193&h=128&c=7&dpr=1,5"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col d-flex justify-content-center">
+                        <div class="card h-100">
+                            <img src="https://th.bing.com/th/id/OIP.tfKFAPnJBP305lZF7Agd_gHaE7?pid=ImgDet&w=193&h=128&c=7&dpr=1,5"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col d-flex justify-content-center">
+                        <div class="card h-100">
+                            <img src="https://th.bing.com/th/id/OIP.tfKFAPnJBP305lZF7Agd_gHaE7?pid=ImgDet&w=193&h=128&c=7&dpr=1,5"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                </section>
+        </div>
 
 
 
