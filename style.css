@@ -1,6 +1,8 @@
 #cards {
     display: flex;
     margin-top: 2em;
+    padding-left: 0px;
+    padding-right: 12px;
 }
 
 #all-cards {
@@ -10,6 +12,7 @@
 .card {
     width: 300px;
     display: flex;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 991px) {
