@@ -2,6 +2,16 @@ a:link{
     text-decoration: none;
 }
 
+/*
+Utilizado no index
+*/
+
+.img-fluid{   /*Usado para o carousel*/
+    width: 1500px;
+    height: 550px !important;
+}
+
+/*Usando nos cards que estão a abaixo do carousel*/
 #cards {
     display: flex;
     margin-top: 2em;
@@ -19,7 +29,7 @@ a:link{
     margin-bottom: 1rem;
 }
 
-
+/*Texto abaixo do cards*/
 #Texto-motiva p{
     padding-right: 70px;
     padding-left: 70px;
@@ -28,6 +38,7 @@ a:link{
 }
 
 
+/*o roda-pe do site*/
 footer{
     background: #000;
     padding: 30px 0;
@@ -130,8 +141,6 @@ footer{
     .footer {
         padding: 50px 0;
     }
-
-
 }
 
 @media (min-width: 992px) {
@@ -161,3 +170,4 @@ footer{
     line-height: 28px;
     }
 }
+
