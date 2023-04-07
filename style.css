@@ -171,3 +171,108 @@ footer{
     }
 }
 
+
+
+/*
+    Login
+*/
+#Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#Login h2{
+    font-size: 33px;
+    text-align: center;
+}
+
+.btnEntrar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.campoEmail b{
+    font-size: 16px;
+    color: #353434;
+}
+
+.campoSenha b{
+    font-size: 16px;
+    color: #353434;
+}
+
+.btn{
+    font-size: 1rem;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    padding: 0 1.2rem;
+    color: #f0efef !important;
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15)!important;
+    background: #2934ce !important;
+
+}
+.EsqueciSenha p{
+    color: #353434;
+    font-size: 13px;
+    margin-left: 10px;
+    text-decoration: underline black;
+    text-decoration-color: #353434;
+    -webkit-text-stroke-width: medium;
+}
+.inputGroup {
+    margin: 1em 0 1em 0;
+    width: 20rem !important;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #e8e8e8;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+
+   .followers {
+    font-size: 0.8rem;
+    color: #7f7f7f;
+   }
+   
+   button:hover {
+    background: #2b2a2a;
+   }
+
+  
