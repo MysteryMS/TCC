@@ -226,6 +226,15 @@ footer{
     text-decoration-color: #353434;
     -webkit-text-stroke-width: medium;
 }
+
+.Register p{
+    color: #353434;
+    font-size: 13px;
+    margin-left: 10px;
+    text-decoration: underline black;
+    text-decoration-color: #353434;
+    -webkit-text-stroke-width: medium;
+}
 .inputGroup {
     margin: 1em 0 1em 0;
     width: 20rem !important;
