@@ -181,10 +181,19 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Segoe UI', sans-serif;
 }
 
 #Login h2{
+    font-size: 33px;
+    text-align: center;
+}
+
+#Cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+#Cadastro h2{
     font-size: 33px;
     text-align: center;
 }
@@ -193,16 +202,6 @@ footer{
     margin-top: 30px;
     display: flex;
     justify-content: flex-end;
-}
-
-.campoEmail b{
-    font-size: 16px;
-    color: #353434;
-}
-
-.campoSenha b{
-    font-size: 16px;
-    color: #353434;
 }
 
 .btn{
